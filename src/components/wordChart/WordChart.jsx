@@ -2,9 +2,10 @@ import React from "react";
 import { ResponsiveContainer, Treemap } from "recharts";
 
 const data = [
-  { name: "word", color: "white", value: 10 },
-  { name: "word", color: "white", value: 12 },
-  { name: "word", color: "white", value: 14 },
+  { name: "word", color: "#676767", value: 10 },
+  { name: "word", color: "#676767", value: 12 },
+  { name: "word", color: "#676767", value: 14 },
+  { name: "Sad", color: "#613D51", value: 14 },
   {
     name: "Nervous",
     color: "#613D51",
@@ -20,10 +21,15 @@ const data = [
     color: "#451932",
     value: 56,
   },
-  { name: "word", color: "white", value: 12 },
-  { name: "word", color: "white", value: 14 },
+  { name: "word", color: "#676767", value: 12 },
+  { name: "word", color: "#676767", value: 14 },
   {
     name: "Nervous",
+    color: "#613D51",
+    value: 56,
+  },
+  {
+    name: "Pain",
     color: "#613D51",
     value: 56,
   },
