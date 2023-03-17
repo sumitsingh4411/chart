@@ -1,0 +1,21 @@
+.chart-container {
+  width: 40%;
+  height: 500px;
+}
+
+.chart-svg {
+  width: 100%;
+  height: 100%;
+}
+
+.chart-circle {
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+
+.chart-label {
+  font-size: 14px;
+  font-weight: bold;
+  text-anchor: middle;
+  fill: #fff;
+}

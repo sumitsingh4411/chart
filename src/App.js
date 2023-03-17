@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./common/header/Header";
+import CustomBarChat from "./components/barChart/BarChat";
+import SimpleBubbleChart from "./components/bubbleChart/BubbleChart";
+import CustomCirCularBar from "./components/circularProgessBar/CustomCirCularBar";
+import SimplePieChart from "./components/pieChart/PieChart";
+import SimpleWordCloud from "./components/wordChart/WordChart";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <div className="main">
+        <SimplePieChart />
+        <SimpleBubbleChart />
+        <SimpleWordCloud />
+        <CustomCirCularBar />
+        <CustomBarChat />
+      </div>
     </div>
   );
 }
